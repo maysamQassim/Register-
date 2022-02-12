@@ -1,0 +1,83 @@
+body {
+  background-image: url(/decorat-1.jpeg);
+}
+.register {
+  margin: auto;
+  width: fit-content;
+}
+form {
+  text-align: center;
+  height: 700px;
+  width: 600px;
+  border-radius: 5px;
+  border: solid 0.5px #e0dcdc;
+  margin-top: 40px;
+  background-color: white;
+}
+
+form h3 {
+  font-size: 30px;
+  margin-right: 40px;
+  margin-top: 80px;
+  text-align: center;
+}
+form p {
+  text-align: center;
+  color: #999;
+  font-size: 20px;
+}
+
+form .name,
+.inputEmail,
+.inputPassword {
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: solid 1px #999;
+  height: 50px;
+  width: 470px;
+  font-size: 20px;
+  padding-right: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.5;
+  padding-left: 15px;
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  color: black;
+}
+
+form input[type="checkbox"] {
+  zoom: 1.6;
+  opacity: 0.3;
+  border: solid 1px #666565;
+}
+form .check {
+  margin-bottom: 50px;
+  margin-right: 40px;
+  font-size: 20px;
+  color: #666565;
+}
+form .pass {
+  float: left;
+  margin-left: 120px;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #666565;
+}
+form .btn {
+  width: 520px;
+  height: 50px;
+  font-size: 20px;
+  border: solid 1px #cbbd89;
+  border-radius: 3px;
+  background-color: #cbbd89;
+  color: white;
+  box-shadow: 1px 1px 5px #cbbd89;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 15px;
+}
+form .btn:hover {
+  background-color: #bbad7d;
+}
